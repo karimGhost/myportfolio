@@ -66,8 +66,8 @@ const active = (navigate, path) =>{;
 
         <div  className={drawer.pro}  style={pro}>
 
-        <NavLink onClick={onCl} id={drawer.a}   className={drawer.drawer_display}
-        to="./"
+        <NavLink   to="/" onClick={onCl} id={drawer.a}   className={drawer.drawer_display}
+      
         style={({ isActive }) => 
         (isActive ? {color: 'red'} : {color: "grey"})}
 >
