@@ -1,0 +1,288 @@
+.main_about{
+    max-width: 100%;
+    min-width: 330px;
+padding-top: 300px;
+justify-content: center;
+line-height: 20px;
+font-size: 1em;
+margin: auto;
+
+
+}
+
+.about_header{
+margin-top: 150px;
+}
+
+.Bio{
+text-overflow:clip;
+    padding:0 20px;
+}
+
+
+
+
+
+
+.footer_about{
+background-color: black;
+}
+
+.footer_about{
+   
+    display: flex;
+    justify-content: space-between;
+}
+.about_image{
+    animation: borders 70s ease-in-out infinite  ;
+
+   transition-delay: 1s;
+background-size: cover;
+background-clip: border-box;
+background-attachment:fixed;
+background-blend-mode: color-burn;
+animation-duration: 20s;
+transition: 15s;
+transition-delay: 10s;
+width: 300px;
+border-radius: 50% 70% 60% 50% / 50% 50% 60% 50%;
+    flex-shrink: 0;
+    position: absolute;
+     top:80px;
+     margin: auto;
+     left:0;
+     right:0;
+     justify-self: center;
+     margin-bottom: 30px;
+}
+
+.about_image::before{
+    content: "";
+    border-radius: 50px;
+}
+
+@keyframes borders {
+
+    0%, 100% {
+        border-radius: 50% 70% 60% 55% / 50% 50% 60% 50%;
+    }
+    14% {
+        border-radius: 50% 40% 54% 46% / 49% 60% 40% 51%;
+    }
+    28% {
+        border-radius: 50% 39% 48% 62% / 49% 70% 30% 51%;
+    }
+    42% {
+        border-radius: 51% 40% 55% 45% / 61% 58% 62% 45%;
+    }
+    56% {
+        border-radius: 60% 50% 57% 43% / 70% 50% 50% 40%;
+    }
+    70% {
+        border-radius: 50% 50% 54% 56% / 56% 68% 54% 44%;
+    }
+    84% {
+        border-radius: 60% 70% 50% 75% / 60% 50% 70% 70%;
+    }
+    
+}
+
+.image_container{
+    background-color: aqua;
+   width: fit-content;
+   height: fit-content;
+}
+
+.abt{
+    font-size: 1.6rem;
+    text-decoration:wavy;
+    color: aqua;
+    text-decoration:  5px wavy overline underline crimson;
+text-decoration-thickness: 0px;
+text-decoration-skip-ink:none;
+display: inline-block;
+padding-bottom: 20px;
+margin: 5px;
+}
+
+
+.header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 1.7em;
+
+color: crimson;
+
+}
+
+#items{
+    margin-top: 50px;
+    text-decoration-color: aqua;
+
+    color: crimson;
+}
+
+.js , .nodejs, .html, .css, .react, .bootstrap, .angular, .git, .base{
+font-size: 1.5rem;
+padding: 15px;
+text-overflow:clip;
+text-indent: -11px;
+line-break: break-word;
+
+
+margin: auto;
+margin-left: 40px;
+text-align: justify;
+inline-size: 100%   
+
+}
+
+.js p, .nodejs p, .html p, .css p, .react p, .bootstrap p, .angular p, .git p, .base p{
+    font-size: 1.5rem;
+    padding: px;
+    text-overflow:clip;
+    text-indent: -11px;
+    line-break: break-word;
+    
+    
+    margin: auto;
+    margin-left: 30px;
+    margin-top: -25px;
+    text-align: justify;
+    inline-size: 100%   
+    
+    }
+
+.js{
+    color: yellow;
+}
+.js p{
+    color: grey
+
+}
+
+.html{
+    color: rgb(167, 59, 20);
+}
+
+.html p{
+    color: rgb(209, 149, 128);
+}
+.nodejs{
+    color: rgb(94, 255, 94)
+}
+
+.nodejs p{
+    color: rgb(0, 236, 0)
+}
+
+.react{
+    color: aqua;
+}
+
+.react p{
+    color: rgb(255, 255, 255);
+}
+
+.bootstrap{
+color: purple
+}
+
+.bootstrap p{
+    color: rgb(224, 238, 247)
+    }
+    .angular{
+        color: orangered;
+        }
+        .angular p{
+            color: rgb(255, 190, 166);
+            }
+
+            .git{
+color:rgb(104, 104, 158)
+            }
+            .git p{
+color:aliceblue
+            }
+.pic{
+width: 30px;
+height: 30px;
+
+}
+
+            .base{
+color: rgb(255, 239, 8);
+
+
+            }
+            .base p{
+color:rgb(215, 237, 255);
+padding-left: 5px;
+
+            }
+
+.css{
+    color: blue
+}
+
+.css p{
+    color: rgb(104, 104, 158)
+}
+
+
+.footer_about{
+    margin: auto;
+    display: grid;
+    grid-template-columns:auto ;
+justify-content: center;
+    align-content: center;
+    align-items: center;
+
+ 
+
+max-width: 100%;
+min-width: 200px;
+
+}
+
+@media screen and (min-width:375px){
+    .footer_about{
+        margin: auto;
+        display: grid;
+    justify-content: center;
+        align-content: center;
+        align-items: center;
+    
+     
+    
+    max-width: 100%;
+    min-width: 200px;
+    
+    }
+}
+
+@media screen and (min-width:907px) {
+    .footer_about{
+        margin: auto;
+        display: grid;
+        grid-template-columns:auto auto auto;
+    justify-content: center;
+        align-content: center;
+        align-items: center;
+    
+     
+    
+    max-width: 100%;
+    min-width: 200px;
+    
+    }
+}
+
+@media screen and (min-width:448px){
+   .Bio{
+    margin: 0 30px;
+   }
+}
+
+#color_light{
+    color: white
+}

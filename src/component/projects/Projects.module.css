@@ -1,0 +1,112 @@
+ .projects_heading{
+position: absolute;
+top: 0;
+
+  }
+
+  #blue{
+background-color: yellow;
+}
+  .re{
+    background-color: red;
+  }
+
+  #w42224{
+  color: red;
+  
+  }
+
+.footer_about{
+ 
+ 
+  background-color: rgb(8, 8, 7);
+  font-family: 'Alumni Sans Inline One', cursive;
+ color: crimson;
+ font-size: 42px;
+margin-bottom: -18px;
+border-bottom-left-radius: 20px ;
+border-bottom-right-radius: 20px ;
+}
+.footer_text{
+background-color: aqua;
+  color: rgb(31, 17, 17);
+  font-size: large;
+  font-weight: 100;
+  font-family: 'Inter', sans-serif;
+  
+  padding: 2px 5px ;
+  border-bottom-left-radius: 20px ;
+border-bottom-right-radius: 20px ;
+  overflow-y: hidden;
+  height: 0;
+
+}
+
+.fit{
+position: absolute;
+bottom: 0px;
+
+overflow-y: auto;
+}
+
+.view_head{
+  overflow:auto;
+position: relative;
+z-index: 5;
+transition: 2s;
+}
+
+.left_slide{
+background-color: aqua;
+position: absolute;
+text-align: center;
+left:0;
+
+font-weight: bold;
+cursor: pointer;
+height: inherit;
+width: 0%;
+padding: 10px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+float:left;
+box-shadow: 1px 1px 3px 2px rgb(93, 255, 255);
+text-shadow: 0.2px 0.2px 0.5px  crimson;
+border-top-left-radius: 9px;
+overflow-x: hidden;
+transition: 1s;
+}
+
+.left_slide:hover{
+background-color: crimson;
+}
+
+.right_slide{
+background-color: crimson;
+float: right;
+position: absolute;
+box-shadow: 1px 1px 3px 2px rgb(255, 0, 51);
+transition: 1s;
+font-weight: bold;
+right: 0;
+height: inherit;
+font-size: 20px;
+text-align: center;
+text-shadow: 0.2px 0.2px 0.5px  white;
+padding: 10px;
+width: 0%;
+overflow-x: hidden;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+cursor: pointer;
+border-top-right-radius: 15px ;
+}
+
+.right_slide:hover{
+background-color: aqua;
+box-shadow: 1px 1px 3px 2px crimson;
+
+}
+
+
+
