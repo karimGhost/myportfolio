@@ -85,15 +85,16 @@ const boxed = [];
 
 
 <BrowserRouter>
-<div className= {toggle  ? "toggle" : "tog"}>  <button onClick={toggled} className={toggle ? "press" : "switch" }>{ toggle ? "LightsON" : "LightsOFF"}</button></div>
- <div className="colight"> { toggle ? <img className="offlight" src= {process.env.PUBLIC_URL+"/images/buulbs/bulboff.png"} alt="bulb-on"/> : <img className="colo"  src={process.env.PUBLIC_URL+"/images/buulbs/bulbon.png"} alr="bulb-off"/> } </div>
-
-<Drawer colo={colored} change={change} toggle={toggleOpen} toggl={togle}  onclick={toggled}/> 
 <Routes>
   <Route   path="/" element={<Intro toggle={toggle} />} />
   <Route   path="/projects" element={<div className="projects_container">{projects}</div>} />
   <Route   path="/about" element={<About light={toggle} />} />
 </Routes>
+<div className= {toggle  ? "toggle" : "tog"}>  <button onClick={toggled} className={toggle ? "press" : "switch" }>{ toggle ? "LightsON" : "LightsOFF"}</button></div>
+ <div className="colight"> { toggle ? <img className="offlight" src= {process.env.PUBLIC_URL+"/images/buulbs/bulboff.png"} alt="bulb-on"/> : <img className="colo"  src={process.env.PUBLIC_URL+"/images/buulbs/bulbon.png"} alr="bulb-off"/> } </div>
+
+<Drawer colo={colored} change={change} toggle={toggleOpen} toggl={togle}  onclick={toggled}/> 
+
 </BrowserRouter>
 
 </div>
