@@ -87,7 +87,7 @@ const boxed = [];
 <BrowserRouter>
 <Routes>
   
-<Route  exact path="/" element={<Intro toggle={toggle} />} />
+<Route  path= {process.env.PUBLIC_URL +"/"} element={<Intro toggle={toggle} />} />
   <Route   path="/projects" element={<div className="projects_container">{projects}</div>} />
   <Route   path="/about" element={<About light={toggle} />} />
 </Routes>
