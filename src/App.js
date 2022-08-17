@@ -77,6 +77,9 @@ const boxed = [];
          backgroundColor: "whiteGhost"
         }
 
+
+
+
   return (
     
 <div className={toggle ? "heads": "heads1"}>

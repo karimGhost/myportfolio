@@ -16,8 +16,9 @@ const [tru, setTru] = useState(false)
 
 function swit(){
    
-  
-        setTru(true)
+   setTru(true)
+    
+    
  
 
 }
@@ -26,14 +27,46 @@ function swit(){
 function switout(){
     setTru(false)
 }
+
+
+
+const [its, setits] = useState(false);
+
+
+const [st, setst] = useState(false)
+
+function twis(){
+ 
+
+setst(true)
+
+ 
+                    }
+/*
+                    const eye = document.getElementByIdn("eye");
+                    let x =
+                    eye.getBoundingClientRect().left + eye.clientWidth / 2;
+                                let y =
+                    eye.getBoundingClientRect().top + eye.clientHeight / 2;
+                                let radian =
+                            Math.atan2(Event.pageX - x, Event.pageY - y);
+                               let  rot =
+                        radian * (180 / Math.PI) * -1 + 270;
+                             
+               const sty = {
+              
+               transform : st ? "rotate(" + rot + "deg)" : "",
+               }  
+*/
+
     return(
 
    
       
        
-        <div className={classes.intro_container}>
+        <div  className={classes.intro_container}>
           {props.val}
-                     <img className={classes.profile}  src={ process.env.PUBLIC_URL+"/images/images2.png" } alt="my-pic"/> 
+              {  <img  id="eye"  onMouseMove={twis} className={classes.profile}  src={ process.env.PUBLIC_URL+"/images/images2.png" } alt="my-pic"/> }
 
         <h1      id={props.toggle ? classes.intro_h_colo: ""} className={ classes.Intro_header }><span className={classes.spaned}> <span className={classes.h}>H</span><span className={classes.ii}>I</span><span className={classes.ii}>I</span><span className={classes.h}>,</span><span className={classes.h}> </span><span className={classes.ii}>I</span><span className={classes.h}>'</span><span className={classes.im}>M</span><span> </span><span className={classes.A}>A</span><span className={classes.B}>B</span><span className={classes.D}>D</span><span className={classes.u}>U</span><span className={classes.L}>L</span><span className={classes.k}>K</span><span className={classes.AR}>A</span><span className={classes.R}>R</span><span className={classes.I}>I</span><span className={classes.M}>M </span></span></h1>
         <p   id={props.toggle ? classes.intro_p_colo: ""} className={ classes.intro_p}> <u className={classes.U}><u className=" colormix pcolor-1">:Welcome</u> <u className="colormix pcolor-2">to</u> <u className="colormix pcolor-3">my</u> <u className={"colormix pcolor-4"}>portfolio:</u> </u> I'm a FRONTEND  web developer  with a passion of finding the right solution
