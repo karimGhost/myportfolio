@@ -73,11 +73,13 @@ export default {
 },
 
 {
-    "title": "App",
+    "title": "invid",
     "image": `${process.env.PUBLIC_URL + '/images/img.png'}`,
-    "about": "a memeGenerator where you can add text to create a meme ,it gets the images  from  imgflip api; loads random images that u can add texts to create a meme ",
+    "about": "A place to watch awesome movies for free",
     "button": "button2",
     "id": "w45554",
+    "code": "",
+    "page": "",
     istrue: false
 },
 
@@ -85,11 +87,12 @@ export default {
 {
     "title": "App",
     "image": `${process.env.PUBLIC_URL + '/images/img.png'}`,
-    "about": "a memeGenerator where you can add text to create a meme ,it gets the images  from  imgflip api; loads random images that u can add texts to create a meme ",
+    "about": "a web app ",
     "button": "button2",
     "id": "w45554",
     "code": "",
     "page": "",
+
     istrue: false
 },
 
