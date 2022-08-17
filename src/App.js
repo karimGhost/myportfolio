@@ -62,7 +62,7 @@ const boxed = [];
 
    console.log(project)
 
-  const projects = project.map(i => <Projects    id={i.id}   footer_header={"footer_header"} onclick={() => clck(i.id)} title={i.title}  project_box={"project_box"} about={i.about} image={i.image} footer={i.button} istrue={i.istrue}  /> )
+  const projects = project.map(i => <Projects    id={i.id}   footer_header={"footer_header"} onclick={() => clck(i.id)} title={i.title}  project_box={"project_box"} about={i.about} image={i.image} footer={i.button} istrue={i.istrue} code={i.code}  page={i.page} /> )
 
 
   const [toggle, setToggle] = useState(false);

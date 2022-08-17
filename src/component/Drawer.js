@@ -81,6 +81,9 @@ const active = (navigate, path) =>{;
         style={({ isActive }) => 
                       (isActive ? {color: 'red'} : {color: 'grey'})}
 >
+
+
+
         Projects
         </NavLink>
 

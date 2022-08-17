@@ -64,7 +64,7 @@ backgroundPosition: "top",
 
 return(
     <div style={sty}   className={classes.projects_container}>
-      <div style={{ overflow: tru ? "visible" : "hidden"}} onMouseOver={hove} onMouseLeave={hov} className={classes.view_head}> <span style={slide} className={classes.left_slide}>To_View</span> <span style={slid} className={classes.right_slide}>Github_repo</span> </div>
+      <div style={{ overflow: tru ? "visible" : "hidden"}} onMouseOver={hove} onMouseLeave={hov} className={classes.view_head}> <a href= {props.code} target = "_blank"><span style={slide} className={classes.left_slide}>The_Code </span></a> <a href ={props.page} target = "_blank" className={classes.link} > <span style={slid} className={classes.right_slide}> To_view</span> </a></div>
 
      <div style={bg} onMouseOver={hove} onMouseLeave={hov}   onClick={props.onclick} className={props.project_box}> 
      <div className={props.footer_header}>
