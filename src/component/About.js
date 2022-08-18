@@ -1,4 +1,4 @@
-import { FaAngular, FaBootstrap, FaCss3, FaDatabase, FaGift, FaGitSquare, FaHtml5, FaJs, FaJsSquare, FaNodeJs, FaReact, FaYoutube } from "react-icons/fa";
+import { FaAngular, FaBootstrap, FaCss3, FaDatabase, FaGift, FaGit, FaGitAlt, FaGitSquare, FaHtml5, FaJs, FaJsSquare, FaNodeJs, FaReact, FaYoutube } from "react-icons/fa";
 import clasess from "./About.module.css"
 import Projects from "./projects/Projects";
 
@@ -43,7 +43,7 @@ for the reason that i started learning on my smart phone temporarily because i d
      <span className={clasess.react}><FaReact/><p>ReactJS</p></span>
     <span className={clasess.bootstrap}><FaBootstrap/><p>Bootstrap</p></span>
      <span className={clasess.angular}><FaAngular/><p>AngularJs</p></span> 
-     <span className={clasess.git}><FaGitSquare/><p>Git</p></span> 
+     <span className={clasess.git}><FaGitAlt/><p>Git</p></span> 
      <span className={clasess.base}><img className={clasess.pic} src={process.env.PUBLIC_URL + "/images/google-firebase.svg"}/><p>Firebase</p></span> 
 </div>
 </div>
